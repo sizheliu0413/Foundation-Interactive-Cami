@@ -1,0 +1,6163 @@
+@media all {
+body{
+    background-color: black;   
+    position:absolute;
+    
+}
+}
+
+.enterimg{
+    display: block;
+    margin-top: 0%;
+    margin-left: 50%;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+/* .container > div {
+    
+  }
+   */
+
+
+  
+  /***************************************AAAAAAAAAAAAAAAAAAA*****************************************/
+
+  img.i1{
+    position: absolute;
+    left: 1300px;
+    top:150px;
+    z-index: 1;
+
+  }
+
+  img.i2{
+    position: absolute;
+    left: 800px;
+    top:150px;
+    z-index: 1;
+
+  }
+
+  .i3{
+    display: block;
+    position: absolute;
+    left: 300px;
+    top:150px;
+    z-index: 1;
+  }
+
+  .i3:hover {
+  transform: rotate(-20deg);
+}
+
+  .i2:hover {
+    transform: rotate(-20deg);
+  }
+
+  .i1:hover {
+    transform: rotate(-20deg);
+  }
+
+
+  .a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    offset-path: path('M 350 150 q -150 40 -160 400');
+    animation: adrop 0.8s linear forwards, arotate 1.5s linear forwards, amove 0.7s linear 0.8s forwards;
+    animation-play-state: paused;
+
+  }
+  
+
+  .ascale{
+     transform: scale(1.5); 
+  }
+
+  
+  @keyframes adrop {
+    to {
+        motion-offset: 100%;
+        offset-distance: 100%;
+      }  
+  }
+
+  @keyframes arotate {
+      from{transform: rotate(0deg);}
+      to{transform: rotate(-360deg);}
+  }
+
+  @keyframes amove {
+      to {
+          left: -100px; top: 50px;
+        }
+  }
+
+
+  /*begin first row*/
+  
+  .acircle1 {
+      height: 13px;
+      width: 20px;
+      position: absolute;
+      border-radius: 150px 150px 0 0;
+      background-color: beige;
+      left: 6px;
+  }
+  
+  .acircle2 {
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 17px;
+  }
+  
+  .acircle3 {
+      height: 13px;
+      width: 20px;
+      position: absolute;
+      border-radius: 150px 150px 0 0;
+      background-color: beige;
+      left: 24px;
+  }
+  
+  /*end first row*/
+  /***************************************************/
+  /*begin second row*/
+  
+  .acircle4 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 11px;
+  }
+  
+  .acircle5 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 11px;
+      left: 2px;
+  }
+  
+  
+  .acircle6 {
+      height: 6px;
+      width: 6px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 12px;
+      left: 16px;
+  }
+  
+  .acircle7 {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 17px;
+      left: 15px;
+  }
+  
+  .acircle8 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 11px;
+      left: 30px;
+  }
+  
+  .acircle9 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 11px;
+      left: 28px;
+  }
+  
+  .acircle10 {
+      height: 6px;
+      width: 6px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 12px;
+      right: 16px;
+  }
+  
+  .acircle11 {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 17px;
+      right: 15px;
+  }
+  /*end second row*/
+  /*****************************/
+  /*begin third row*/
+  .acircle12 {
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 24px;
+      left: 1px;
+  }
+  
+  .acircle13 {
+      height: 10px;
+      width: 10px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 27px;
+      left: 10px;
+  }
+  
+  .acircle14 {
+      height: 10px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 23px;
+      left: 15px;
+  }
+  
+  .acircle15 {
+      height: 10px;
+      width: 10px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 27px;
+      right: 10px;
+  }
+  
+  .acircle16 {
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 24px;
+      right: 1px;
+  }
+  /*end third row*/
+  /*****************************/
+  /*begin last row*/
+  
+  .acircle17 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 30px;
+  }
+  
+  .acircle18 {
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 34px;
+      left: 6px;
+  }
+  
+  .acircle19 {
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 34px;
+      right: 6px;
+  }
+  
+  .acircle20 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 30px;
+      left: 30px;
+  }
+  
+  /*endddddddddddddddddddddddd*/
+  /* .shadowa{
+      opacity: 0.2;
+      transform: scale(1.1);
+  } */
+  /***************************************BBBBBBBBBBBBBBBBBBBBBBB*****************************************/
+
+  .bscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .b{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 50px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: bdrop 0.8s linear 0.5s forwards, brotate 1.5s linear 0.5s forwards, bmove 0.7s linear 1.3s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes bdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes brotate {
+    from{transform: rotate(-180deg);}
+    to{transform: rotate(-470deg);}
+}
+
+@keyframes bmove {
+    to {
+        left: -50px; top: 50px;
+      }
+}
+
+  /*begin first row*/
+  
+  .bcircle1 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+  }
+  
+  .bcircle2 {
+      height: 14px;
+      width: 17px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 16px;
+  }
+  
+  .bcircle3 {
+      height: 13px;
+      width: 20px;
+      position: absolute;
+      border-radius: 150px 150px 0 0;
+      background-color: beige;
+      left: 24px;
+  }
+  
+  .bcircle4 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 2px;
+      right:0;
+  }
+  
+  /*end first row*/
+  /***************************************************/
+  /*begin second row*/
+  
+  
+  
+  .bcircle5 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 11px;
+      left: 3px;
+  }
+  
+  
+  .bcircle6 {
+      height: 6px;
+      width: 6px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 12px;
+      left: 16px;
+  }
+  
+  .bcircle7 {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 17px;
+      left: 15px;
+  }
+  
+  .bcircle8 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 8px;
+      left: 30px;
+  }
+  
+  .bcircle9 {
+      height: 6px;
+      width: 6px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 12px;
+      right: 16px;
+  }
+  
+  .bcircle10 {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 17px;
+      right: 15px;
+  }
+  
+  /*end second row*/
+  /*****************************/
+  /*begin third row*/
+  
+  
+  .bcircle11 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 18px;
+      left: 3px;
+  }
+  
+  .bcircle12 {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 33px;
+      left: 15px;
+  }
+  
+  .bcircle13 {
+      height: 5px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 23px;
+      left: 15px;
+  }
+  
+  .bcircle14 {
+      height: 8px;
+      width: 8px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 26px;
+      right: 15px;
+  }
+  
+  
+  .bcircle15 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      bottom: 8px;
+      right:0;;
+  }
+  
+  .bcircle16{
+      height: 6px;
+      width: 6px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 32px;
+      right: 16px;
+  }
+  /*end third row*/
+  /*****************************/
+  /*begin last row*/
+  
+  .bcircle17 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 30px;
+  }
+  
+  .bcircle18 {
+      height: 14px;
+      width: 17px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 36px;
+      left: 16px;
+  }
+  
+  .bcircle19 {
+      height: 13px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      bottom:0;
+      right: 6px;
+  }
+  
+  .bcircle20 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      right: 0;
+      bottom: 2px;
+  }
+  
+  /*
+  endddddddddddddddddddddddd
+  */
+  
+  /***************************************CCCCCCCCCCCCCCCCCCCCCCCCC*****************************************/
+  
+  .cscale{
+      transform:scale(1.5);
+  }
+
+ .c{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 50px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: cdrop 0.8s linear 0.7s forwards, crotate 1.5s linear 0.7s forwards, cmove 0.7s linear 1.5s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes cdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes crotate {
+    from{transform: rotate(-90deg);}
+    to{transform: rotate(-450deg);}
+}
+
+@keyframes cmove {
+    to {
+        left: 0px; top: 50px;
+      }
+}
+
+  
+  .ccircle1 {
+      height: 21px;
+      width: 21px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 6px;
+  }
+  
+  .ccircle2 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 6px;
+  }
+  
+  .ccircle3 {
+      height: 10px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 16px;
+      top: 2px;
+  }
+  
+  .ccircle4 {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 22px;
+  }
+  
+  .ccircle5 {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 2px;
+      right: 2px;
+  }
+  
+  .ccircle6 {
+      height: 17px;
+      width: 17px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 6px;
+      right: 0;
+  }
+  
+  
+  /*end first row*/
+  /***************************************************/
+  /*begin second row*/
+  
+  
+  
+  .ccircle7 {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      top: 17px;
+      left: 3px;
+  }
+  
+  /*end second row*/
+  /*****************************/
+  /*begin third row*/
+  
+  
+  .ccircle8 {
+      height: 21px;
+      width: 21px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      bottom: 6px;
+  }
+  
+  .ccircle9 {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 6px;
+      bottom: 0;
+  }
+  
+  .ccircle10 {
+      height: 2px;
+      width: 20px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 16px;
+      bottom: 2px;
+  }
+  
+  .ccircle11 {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      left: 22px;
+      bottom: 0;
+  }
+  
+  .ccircle12 {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      bottom: 2px;
+      right: 2px;
+  }
+  
+  .ccircle13 {
+      height: 17px;
+      width: 17px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: beige;
+      bottom: 6px;
+      right: 0;
+  }
+  
+  
+  /*end third row*/
+  
+  
+  /*endddddddddddddddddddddddd*/
+
+.dscale{
+    transform:scale(1.5);
+}
+
+.d{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    offset-path: path('M 350 150 q -150 40 -160 400');
+    animation: ddrop 0.8s linear 1.5s forwards, drotate 1s linear 1.5s forwards, dmove 0.7s linear 2.3s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes ddrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes drotate {
+  from{transform: rotate(-220deg);}
+  to{transform: rotate(-420deg);}
+}
+
+@keyframes dmove {
+  to {
+      left: 50px; top: 50px;
+    }
+}
+
+
+/*begin first row*/
+
+.dcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.dcircle2 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.dcircle3 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: beige;
+    left: 24px;
+}
+
+.dcircle4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right:0;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.dcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+
+.dcircle6 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 16px;
+}
+
+.dcircle7 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 15px;
+}
+
+.dcircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    left: 30px;
+}
+
+.dcircle9 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right: 16px;
+}
+
+.dcircle10 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 15px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.dcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 3px;
+}
+
+.dcircle12 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 31px;
+    left: 15px;
+}
+
+/*
+.dcircle13 {
+    height: 5px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    left: 15px;
+}
+*/
+
+.dcircle14 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 24px;
+    right: 15px;
+}
+
+
+.dcircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 8px;
+    right:0;;
+}
+
+.dcircle16{
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 33px;
+    right: 16px;
+}
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.dcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.dcircle18 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 36px;
+    left: 16px;
+}
+
+.dcircle19 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom:0;
+    right: 6px;
+}
+
+.dcircle20 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0;
+    bottom: 2px;
+}
+
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*****************************************/
+
+.escale{
+    transform:scale(1.5);
+}
+
+.e{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    offset-path: path('M 350 150 q -150 40 -160 350');
+    animation: edrop 0.8s linear 2s forwards, erotate 1s linear 2.2s forwards, emove 0.7s linear 2.8s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes edrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes erotate {
+  from{transform: rotate(30deg);}
+  to{transform: rotate(-120deg);}
+}
+
+@keyframes emove {
+  to {
+      left: -20px; top: 55px;
+    }
+}
+
+/*begin first row*/
+
+.ecircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.ecircle2 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.ecircle3 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: beige;
+    left: 24px;
+}
+
+.ecircle4 {
+    height: 16px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 1px;
+    right:1px;
+}
+
+.ecircle15{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    right:1px;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.ecircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+
+.ecircle6 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 16px;
+}
+
+.ecircle7 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 15px;
+}
+
+.ecircle8 {
+    height: 10px;
+    width: 22px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 17px;
+}
+
+.ecircle9 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 4px;
+    right: 10px;
+}
+
+.ecircle10 {
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 13px;
+}
+
+.ecircle13{
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22px;
+    left: 13px;
+}
+
+.ecircle14 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 22px;
+}
+
+/*
+.ecircle26 {
+    height: 10px;
+    width: 26px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 19px;
+    left: 17px;
+}
+*/
+
+.ecircle22 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 19.5px;
+    left: 25px;
+}
+
+.ecircle23 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22.5px;
+    left: 25px;
+}
+
+.ecircle24 {
+    height: 12px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 19px;
+    left: 30px;
+}
+
+/*
+.ecircle25 {
+    height: 13px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 32px;
+}
+*/
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.ecircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 3px;
+}
+
+.ecircle12 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 31px;
+    left: 15px;
+}
+
+
+.ecircle16{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 4px;
+    right: 10px;
+}
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.ecircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.ecircle18 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 36px;
+    left: 16px;
+}
+
+.ecircle19 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom:0;
+    right: 6px;
+}
+
+.ecircle20 {
+    height: 16px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 1px;
+    right:1px;
+}
+
+.ecircle21{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 7px;
+    right:1px;
+}
+
+
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF*****************************************/
+
+.fscale{
+    transform:scale(1.5);
+}
+
+.f{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top:50px;
+    left: 50px;
+    offset-path: path('M 350 150 q -150 40 -160 350');
+    animation: fdrop 0.8s linear 2.7s forwards, frotate 1s linear 2.7s forwards, fmove 0.7s linear 3.5s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes fdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes frotate {
+  from{transform: rotate(-180deg);}
+  to{transform: rotate(-450deg);}
+}
+
+@keyframes fmove {
+  to {
+      left: 40px; top: 60px;
+    }
+}
+
+/*begin first row*/
+
+.fcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.fcircle2 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.fcircle3 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: beige;
+    left: 24px;
+}
+
+.fcircle4 {
+    height: 16px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 1px;
+    right:1px;
+}
+
+.fcircle15{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    right:1px;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.fcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+
+.fcircle6 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 16px;
+}
+
+.fcircle7 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 15px;
+}
+
+.fcircle8 {
+    height: 10px;
+    width: 22px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 17px;
+}
+
+.fcircle9 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 4px;
+    right: 10px;
+}
+
+.fcircle10 {
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 13px;
+}
+
+.fcircle13{
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22px;
+    left: 13px;
+}
+
+.fcircle14 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 22px;
+}
+
+
+.fcircle22 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 19.5px;
+    left: 25px;
+}
+
+.fcircle23 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22.5px;
+    left: 25px;
+}
+
+.fcircle24 {
+    height: 12px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 19px;
+    left: 30px;
+}
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.fcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 3px;
+}
+
+
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.fcircle17 {
+    height: 20px;
+    width: 24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+    left:2px;
+}
+
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG*****************************************/
+.gscale{
+    transform:scale(1.5);
+}
+
+.g{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    offset-path: path('M 350 150 q 0 -30 -50 400');
+    animation: gdrop 0.8s linear 2.9s forwards, grotate 1s linear 2.9s forwards, gmove 0.3s linear 3.7s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes gdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes grotate {
+  from{transform: rotate(90deg);}
+  to{transform: rotate(-450deg);}
+}
+
+@keyframes gmove {
+  to {
+      left: -10px; top: 50px;
+    }
+}
+
+.gcircle1 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+}
+
+.gcircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+}
+
+.gcircle3 {
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+    top: 2px;
+}
+
+.gcircle4 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 22px;
+}
+
+.gcircle5 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right: 2px;
+}
+
+.gcircle6 {
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right: 0;
+}
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.gcircle7 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 3px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.gcircle8 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+}
+
+.gcircle9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+    bottom: 0;
+}
+
+.gcircle10 {
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+    bottom: 2px;
+}
+
+.gcircle11 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 22px;
+    bottom: 0;
+}
+
+.gcircle12 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 5px;
+    right: 5px;
+}
+
+.gcircle13 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+    right: 0px;
+}
+
+.gcircle14 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 3px;
+    right: 0;
+}
+
+.gcircle15 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0;
+}
+
+
+/*end third row*/
+
+
+/*endddddddddddddddddddddddd*/
+
+/***************************************HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*****************************************/
+
+.hscale{
+    transform:scale(1.5);
+}
+
+.h{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    offset-path: path('M 350 150 q -150 40 -120 350');
+    animation: hdrop 0.8s linear 3.5s forwards, hrotate 1s linear 3.5s forwards, hmove 0.7s linear 4.3s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes hdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes hrotate {
+  from{transform: rotate(90deg);}
+  to{transform: rotate(-90deg);}
+}
+
+@keyframes hmove {
+  to {
+      left: 50px; top: 53px;
+    }
+}
+/*begin first row*/
+
+.hcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.hcircle2 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 8px;
+    top: 1px;
+}
+
+.hcircle3 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 8px;
+    top: 1px;
+}
+
+
+.hcircle4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right:0;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.hcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+
+.hcircle6 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 16px;
+}
+
+.hcircle7 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 15px;
+}
+
+.hcircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    right: 3px;
+}
+
+.hcircle9 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right: 16px;
+}
+
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.hcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 3px;
+}
+
+.hcircle12 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 8px;
+    bottom: 0px;
+}
+
+.hcircle13 {
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 15px;
+}
+
+.hcircle14 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    right: 15px;
+}
+
+
+.hcircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    right: 3px;
+}
+
+.hcircle16{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 8px;
+    bottom: 0px;
+}
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.hcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+}
+
+
+
+
+
+.hcircle20 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0;
+    bottom: 0px;
+}
+
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*****************************************/
+
+.iscale{
+    transform:scale(1.5);
+}
+
+.i{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    offset-path: path('M 350 150 q -150 40 -160 300');
+    animation: idrop 0.8s linear 3.7s forwards, irotate 1.2s linear 4s forwards, imove 0.7s linear 4.5s forwards, imove2 0.7s linear 5.6s forwards, irotate2 0.7s linear 5.6s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes idrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes irotate {
+  from{transform: rotate(200deg);}
+  to{transform: rotate(-90deg);}
+}
+
+@keyframes imove {
+  to {
+      left: 0px; top: 54px;
+    }
+}
+@keyframes imove2 {
+    to {
+        left: 10px; top: 60px;
+      }
+  }
+  @keyframes irotate2 {
+    to{transform: rotate(-70deg);}
+  }
+
+/*begin first row*/
+
+.icircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 15px;
+}
+
+.icircle2 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+}
+
+.icircle3 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 6px;
+}
+
+.icircle4 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 4px;
+    top: 3px;
+}
+
+.icircle5 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 4px;
+    top: 3px;
+}
+
+.icircle6 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 12px;
+}
+
+.icircle7 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 12px;
+}
+
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+.icircle8 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 9px;
+    left: 13px;
+}
+
+.icircle9 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 9px;
+    right: 13px;
+}
+
+
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+.icircle10 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 18px;
+}
+
+.icircle11 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    right: 18px;
+}
+
+.icircle12 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 20px;
+}
+
+.icircle13 {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    left: 18px;
+}
+
+.icircle14 {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    right: 18px;
+}
+
+
+
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.icircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom:1px;
+    left: 0px;
+}
+
+.icircle16 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 17px;
+}
+
+.icircle17 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 5px;
+}
+
+.icircle18 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 1px;
+    right: 0px;
+}
+
+
+.icircle19 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 5px;
+}
+
+.icircle20 {
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 10px;
+}
+
+.icircle21 {
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 10px;
+}
+
+
+/*****endddddddddddddddddddddddd********/
+
+/***************************************JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ*****************************************/
+
+  
+
+  .jscale{
+     transform: scale(1.5); 
+  }
+
+  .j{
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 450px;
+    offset-path: path('M 350 150 q -150 40 -160 400');
+    animation: jdrop 0.8s linear forwards, jrotate 1.5s linear forwards, jmove 0.7s linear 0.8s forwards;
+    animation-play-state: paused;
+
+  }
+
+  
+  @keyframes jdrop {
+    to {
+        motion-offset: 100%;
+        offset-distance: 100%;
+      }  
+  }
+
+  @keyframes jrotate {
+      from{transform: rotate(200deg);}
+      to{transform: rotate(-90deg);}
+  }
+
+  @keyframes jmove {
+      to {
+          left: 250px; top: 50px;
+        }
+  }
+
+/*begin first row*/
+
+.jcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.jcircle2 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 8px;
+}
+
+.jcircle3 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 4px;
+}
+
+.jcircle4 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+    top: 2px;
+}
+
+.jcircle5 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 3px;
+    top: 2px;
+}
+
+.jcircle6 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 13px;
+}
+
+.jcircle7 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 11px;
+}
+
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+.jcircle8 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    left: 15px;
+}
+
+.jcircle9 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    right: 12px;
+}
+
+
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+.jcircle10 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    left: 26px;
+}
+
+.jcircle11 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    right: 13px;
+}
+
+.jcircle12 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 24px;
+}
+
+.jcircle13 {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 24px;
+    left: 24px;
+}
+
+.jcircle14 {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    right: 14px;
+}
+
+
+
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.jcircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom:3px;
+    left: 0px;
+}
+
+.jcircle16 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 22px;
+}
+
+.jcircle17 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 5px;
+}
+
+
+
+
+.jcircle20 {
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 10px;
+}
+
+.jcircle21 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 3px;
+    right: 6px;
+}
+
+
+/*****endddddddddddddddddddddddd********/
+
+/***************************************KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK*****************************************/
+
+
+.kscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .k{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: kdrop 1s linear 0.5s forwards, krotate 1.2s linear 0.8s forwards, kmove 0.5s linear 1.5s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes kdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes krotate {
+    from{transform: rotate(190deg);}
+    to{transform: rotate(-135deg);}
+}
+
+@keyframes kmove {
+    to {
+        left: 295px; top: 50px;
+      }
+}
+
+
+/*begin first row*/
+
+.kcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.kcircle2 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 7px;
+}
+
+
+
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.kcircle3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+.kcircle4 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    left: 15px;
+}
+
+.kcircle5 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 10px;
+    left: 20px;
+}
+
+.kcircle6 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    left: 28px;
+}
+
+.kcircle14 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right: 8px;
+}
+
+
+.kcircle7 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    right: 1px;
+}
+
+.kcircle15 {
+    height: 20px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right: 1px;
+}
+
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.kcircle8 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22px;
+    left: 15px;
+}
+
+.kcircle9 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 10px;
+    left: 20px;
+}
+
+.kcircle10 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 4px;
+    left: 25px;
+}
+
+.kcircle11 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 8px;
+    left: 25px;
+}
+
+.kcircle12 {
+    height: 18px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+.kcircle13 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 3px;
+}
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.kcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.kcircle18 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 7px;
+}
+
+
+/*
+endddddddddddddddddddddddd
+*/
+/***************************************LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL*****************************************/
+
+
+
+.lscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .l{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: ldrop 1s linear 0.8s forwards, lrotate 1.2s linear 1.1s forwards, lmove 0.5s linear 1.8s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes ldrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes lrotate {
+    from{transform: rotate(220deg);}
+    to{transform: rotate(-90deg);}
+}
+
+@keyframes lmove {
+    to {
+        left: 350px; top: 50px;
+      }
+}
+
+
+/*begin first row*/
+
+
+.lcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.lcircle2 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 7px;
+}
+
+.lcircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 0px;
+    left: 12px;
+}
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+.lcircle10 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 10px;
+    left: 8px;
+}
+
+.lcircle11 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+.lcircle12 {
+    height: 10px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 6px;
+}
+
+.lcircle13 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    left: 10px;
+}
+
+.lcircle14 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 15px;
+}
+
+.lcircle20 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 24px;
+    left: 3px;
+}
+
+
+
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.lcircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom:0px;
+    left: 0px;
+}
+
+.lcircle16 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 17px;
+}
+
+.lcircle17 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 10px;
+}
+
+.lcircle18 {
+    height: 22px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+.lcircle19 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 6px;
+}
+
+
+
+.lcircle20 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 10px;
+}
+
+
+/*****endddddddddddddddddddddddd********/
+/***************************************MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*****************************************/
+
+
+.mscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .m{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -300 350');
+      animation: mdrop 1s linear 1.2s forwards, mrotate 1.2s linear 1.4s forwards, mmove 0.5s linear 2.2s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes mdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes mrotate {
+    from{transform: rotate(220deg);}
+    to{transform: rotate(-90deg);}
+}
+
+@keyframes mmove {
+    to {
+        left: 410px; top: 60px;
+      }
+}
+
+/*begin first row*/
+.mcircle1{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 2px;
+    top: 1px;
+}
+
+.mcircle2{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 6px;
+}
+
+.mcircle3{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    right: 6px;
+}
+
+.mcircle4{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 2px;
+    top: 1px;
+}
+
+/*end first row*/
+/*****************************/
+/*begin first colum*/
+
+.mcircle5{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 5px;
+}
+
+.mcircle6{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+}
+
+.mcircle7{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    left: 2px;
+}
+
+
+.mcircle8{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    left: 1px;
+}
+
+
+.mcircle10{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 0px;
+}
+
+.mcircle11{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/*end firt colum*/
+/*****************************/
+/*begin mid colum*/
+
+.mcircle12{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    left: 20px;
+}
+
+.mcircle13{
+    height: 14px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 16px;
+    left: 20px;
+}
+
+
+
+/*end mid colum*/
+
+/*begin last colum*/
+.mcircle14{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 5px;
+    right: 0px;
+}
+
+.mcircle15{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    right: 0px;
+}
+
+.mcircle16{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    right: 2px;
+}
+
+
+.mcircle17{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    right: 1px;
+}
+
+
+.mcircle18{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+.mcircle19{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*end last colum*/
+
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN*****************************************/
+
+
+.nscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .n{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: ndrop 1s linear 1.5s forwards, nrotate 1.2s linear 1.8s forwards, nmove 0.5s linear 2.5s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes ndrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes nrotate {
+    from{transform: rotate(220deg);}
+    to{transform: rotate(-90deg);}
+}
+
+@keyframes nmove {
+    to {
+        left: 400px; top: 50px;
+      }
+}
+
+.ncircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    left:1px;
+}
+
+.ncircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+    top:1px;
+}
+
+.ncircle3 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 17px;
+    top: 0px;
+}
+
+.ncircle4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 24px;
+    top: 1px;
+}
+
+.ncircle5 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right:1px;
+}
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.ncircle7 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 1px;
+}
+
+.ncircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 1px;
+}
+
+.ncircle13 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left:1px;
+}
+
+.ncircle14 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right:1px;
+}
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.ncircle9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+}
+
+.ncircle10 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+    right: 0px;
+}
+
+.ncircle11 {
+    height: 20px;
+    width: 24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+}
+
+.ncircle12 {
+    height: 20px;
+    width: 24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*end third row*/
+
+
+/*endddddddddddddddddddddddd*/
+/***************************************OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*****************************************/
+
+
+.oscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .o{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -300 320');
+      animation: odrop 1s linear 1.8s forwards, orotate 1.2s linear 1.7s forwards, omove 0.5s linear 2.5s forwards, orotate2 0.6s linear 2.9s forwards, omove2 0.6s linear 2.9s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes odrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes orotate {
+    from{transform: rotate(220deg);}
+    to{transform: rotate(-90deg);}
+}
+
+@keyframes omove {
+    to {
+        left: 450px; top: 60px;
+      }
+}
+@keyframes orotate2 {
+    to{transform: rotate(40deg);}
+}
+
+@keyframes omove2 {
+    to {
+        left: 510px; top: 88px;
+      }
+}
+
+
+.ocircle1 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+}
+
+.ocircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+}
+
+.ocircle3 {
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 17px;
+    top: 2px;
+}
+
+.ocircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 6px;
+}
+
+.ocircle6 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right:0px;
+}
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.ocircle7 {
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 1px;
+}
+.ocircle14 {
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 1px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.ocircle8 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+}
+
+.ocircle9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+    bottom: 0;
+}
+
+.ocircle10 {
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 17px;
+    bottom: 2px;
+}
+
+.ocircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 6px;
+    bottom: 0px;
+}
+
+
+.ocircle13 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+    right: 0px;
+}
+
+
+/*end third row*/
+
+
+/*endddddddddddddddddddddddd*/
+/***************************************PPPPPPPPPPPPPPPPPPPPPPPP*****************************************/
+
+
+.pscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .p{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -300 350');
+      animation: pdrop 1s linear 3s forwards, protate 1.2s linear 3.2s forwards, pmove 0.5s linear 4s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes pdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes protate {
+    from{transform: rotate(180deg);}
+    to{transform: rotate(-120deg);}
+}
+
+@keyframes pmove {
+    to {
+        left: 460px; top: 60px;
+      }
+}
+
+/*begin first row*/
+
+.pcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.pcircle2 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.pcircle3 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: beige;
+    left: 24px;
+}
+
+.pcircle4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right:0;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.pcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+
+.pcircle6 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 16px;
+}
+
+.pcircle7 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 15px;
+}
+
+.pcircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    left: 30px;
+}
+
+.pcircle9 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right: 16px;
+}
+
+.pcircle10 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 15px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.pcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 3px;
+}
+
+.pcircle12 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 33px;
+    left: 15px;
+}
+
+.pcircle13 {
+    height: 5px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    left: 15px;
+}
+
+.pcircle14 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    right: 12px;
+}
+.pcircle15 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22px;
+    right: 6px;
+}
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.pcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.pcircle18 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 36px;
+    left: 10px;
+}
+
+/*
+endddddddddddddddddddddddd
+*/
+/***************************************QQQQQQQQQQQQQQQQQQQQQ*****************************************/
+
+.qscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .q{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 450px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: qdrop 1s linear 3.1s forwards, qrotate 1.2s linear 1.9s forwards, qmove 0.5s linear 2.6s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes qdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes qrotate {
+    from{transform: rotate(180deg);}
+    to{transform: rotate(-90deg);}
+}
+
+@keyframes qmove {
+    to {
+        left: 450px; top: 50px;
+      }
+}
+
+.qcircle1 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+}
+
+.qcircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+}
+
+.qcircle3 {
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 17px;
+    top: 2px;
+}
+
+.qcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 6px;
+}
+
+.qcircle6 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right:0px;
+}
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.qcircle7 {
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 1px;
+}
+.qcircle14 {
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 1px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.qcircle8 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+}
+
+.qcircle9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+    bottom: 0;
+}
+
+.qcircle10 {
+    height: 17px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 17px;
+    bottom: 2px;
+}
+
+.qcircle11 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 5px;
+    bottom: 0px;
+}
+
+
+.qcircle13 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 5px;
+    right: 0px;
+}
+
+
+/*end third row*/
+
+
+/*endddddddddddddddddddddddd*/
+/***************************************RRRRRRRRRRRRRRRRRRRRRR*****************************************/
+
+.r{
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -160 400');
+    animation: rdrop 0.8s linear forwards, rrotate 1.5s linear forwards, rmove 0.7s linear 0.8s forwards;
+    animation-play-state: paused;
+
+  }
+  
+
+  .rscale{
+     transform: scale(1.5); 
+  }
+
+  
+  @keyframes rdrop {
+    to {
+        motion-offset: 100%;
+        offset-distance: 100%;
+      }  
+  }
+
+  @keyframes rrotate {
+      from{transform: rotate(0deg);}
+      to{transform: rotate(-360deg);}
+  }
+
+  @keyframes rmove {
+      to {
+          left: 600px; top: 50px;
+        }
+  }
+
+
+/*begin first row*/
+
+.rcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.rcircle2 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.rcircle3 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: beige;
+    left: 24px;
+}
+
+.rcircle4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right:0;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.rcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 3px;
+}
+
+
+.rcircle6 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 16px;
+}
+
+.rcircle7 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 15px;
+}
+
+.rcircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    left: 30px;
+}
+
+.rcircle9 {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right: 16px;
+}
+
+.rcircle10 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 15px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.rcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 3px;
+}
+
+.rcircle12 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 33px;
+    left: 15px;
+}
+
+.rcircle13 {
+    height: 5px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    left: 15px;
+}
+
+.rcircle14 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    right: 15px;
+}
+
+
+.rcircle15 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 12px;
+    right:12px;
+}
+
+.rcircle16{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 25px;
+    right: 6px;
+}
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.rcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.rcircle18 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 36px;
+    left: 10px;
+}
+
+.rcircle19 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 2px;
+    right: 0px;
+}
+
+.rcircle20 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 1px;
+}
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************SSSSSSSSSSSSSSSSSSSSSSS*****************************************/
+
+.sscale{
+    transform: scale(1.5); 
+ }
+
+
+  
+ .s{
+
+      display: block; 
+      height: 50px;
+      width: 50px;
+      position: absolute; 
+      top: 50px;
+      left: 750px;
+      offset-path: path('M 350 150 q -150 40 -160 400');
+      animation: sdrop 0.8s linear 0.5s forwards, srotate 1.5s linear 0.5s forwards, smove 0.7s linear 1.3s forwards;
+      animation-play-state: paused;
+
+ }
+
+
+
+@keyframes sdrop {
+  to {
+      motion-offset: 100%;
+      offset-distance: 100%;
+    }  
+}
+
+@keyframes srotate {
+    from{transform: rotate(-180deg);}
+    to{transform: rotate(-450deg);}
+}
+
+@keyframes smove {
+    to {
+        left: 650px; top: 50px;
+      }
+}
+
+.scircle1 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+}
+
+.scircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+}
+
+.scircle3 {
+    height: 10px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+    top: 2px;
+}
+
+.scircle4 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 22px;
+}
+
+
+.scircle6 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right: 3px;
+}
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+
+.scircle8 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 19px;
+    left: 6px;
+}
+
+.scircle9 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+    bottom: 18px;
+}
+
+.scircle10 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 24px;
+    bottom: 14px;
+}
+
+.scircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 1px;
+    bottom: 6px;
+}
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+.scircle12 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0px;
+    bottom: 4px;
+}
+
+.scircle13 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 8px;
+    bottom: 0px;
+}
+
+.scircle14 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 15px;
+    bottom: 0px;
+}
+
+.scircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 0px;
+    bottom: 2px;
+}
+
+.scircle16 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 5px;
+    bottom: 0px;
+}
+
+.scircle17 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 12px;
+    bottom: 0px;
+}
+
+/*end third row*/
+
+
+/*endddddddddddddddddddddddd*/
+/***************************************TTTTTTTTTTTTTTTTTTTTTT*****************************************/
+
+.tscale{
+    transform:scale(1.5);
+}
+
+.t{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -160 400');
+    animation: tdrop 0.8s linear 0.9s forwards, trotate 1.5s linear 0.9s forwards, tmove 0.7s linear 1.7s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes tdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes trotate {
+  from{transform: rotate(-90deg);}
+  to{transform: rotate(-450deg);}
+}
+
+@keyframes tmove {
+  to {
+      left: 690px; top: 50px;
+    }
+}
+
+/*begin first row*/
+
+.tcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 0px;
+}
+
+.tcircle2 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+}
+
+.tcircle3 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 6px;
+}
+
+.tcircle4 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 4px;
+    top: 3px;
+}
+
+.tcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0px;
+    top: 0px;
+}
+
+.tcircle6 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 12px;
+}
+
+.tcircle7 {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 12px;
+}
+
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+.tcircle8 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 9px;
+    left: 13px;
+}
+
+.tcircle9 {
+    height: 10px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 9px;
+    right: 13px;
+}
+
+
+
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+.tcircle10 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    left: 18px;
+}
+
+.tcircle11 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 11px;
+    right: 18px;
+}
+
+.tcircle12 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 20px;
+}
+
+.tcircle13 {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    left: 18px;
+}
+
+.tcircle14 {
+    height: 12px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    right: 18px;
+}
+
+
+
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.tcircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top:0px;
+    left: 15px;
+}
+
+.tcircle16 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 17px;
+}
+
+.tcircle17 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 8px;
+}
+
+
+
+.tcircle19 {
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 8px;
+}
+
+.tcircle20 {
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 10px;
+}
+
+.tcircle21 {
+    height: 20px;
+    width: 19px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 10px;
+}
+
+
+/*****endddddddddddddddddddddddd********/
+/***************************************UUUUUUUUUUUUUUUUUUUUUUUU*****************************************/
+
+
+.uscale{
+    transform:scale(1.5);
+}
+
+.u{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -160 400');
+    animation: udrop 0.8s linear 1.5s forwards, urotate 1s linear 1.5s forwards, umove 0.7s linear 2.3s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes udrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes urotate {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(-270deg);}
+}
+
+@keyframes umove {
+  to {
+      left: 750px; top: 50px;
+    }
+}
+
+
+.ucircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    left:1px;
+}
+
+.ucircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 6px;
+    top:1px;
+}
+
+.ucircle3 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 17px;
+    top: 0px;
+}
+
+.ucircle4 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 24px;
+    top: 1px;
+}
+
+.ucircle5 {
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 2px;
+    right:1px;
+}
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.ucircle7 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    left: 1px;
+}
+
+.ucircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 17px;
+    right: 1px;
+}
+
+.ucircle13 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left:1px;
+}
+
+.ucircle14 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right:1px;
+}
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.ucircle9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+}
+
+.ucircle10 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 6px;
+    right: 0px;
+}
+
+.ucircle11 {
+    height: 20px;
+    width: 24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+}
+
+.ucircle12 {
+    height: 20px;
+    width: 24px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*end third row*/
+
+/*endddddddddddddddddddddddd*/
+
+/***************************************VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVK*****************************************/
+
+.vscale{
+    transform:scale(1.5);
+}
+
+.v{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -150 350');
+    animation: vdrop 0.8s linear 2s forwards, vrotate 0.6s linear 2.3s forwards, vmove 0.3s linear 2.5s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes vdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes vrotate {
+  from{transform: rotate(130deg);}
+  to{transform: rotate(-140deg);}
+}
+
+@keyframes vmove {
+  to {
+      left: 705px; top: 58px;
+    }
+}
+
+/*begin first row*/
+
+
+
+
+
+
+
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.vcircle3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 0px;
+    left: 0px;
+}
+.vcircle2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 0px;
+    right: 0px;
+}
+
+.vcircle4 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 0px;
+    left: 8px;
+}
+
+
+.vcircle6 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 0px;
+    right: 8px;
+}
+
+.vcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 1px;
+}
+
+
+.vcircle7 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    right: 1px;
+}
+
+.vcircle8 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 5px;
+    right: 2px;
+}
+
+.vcircle9 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 13px;
+    right: 3px;
+}
+
+.vcircle10 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    right: 4px;
+}
+
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+.vcircle14 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 5px;
+    left: 2px;
+}
+
+.vcircle15 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 13px;
+    left: 3px;
+}
+
+.vcircle16 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 4px;
+}
+.vcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+    left: 14px;
+}
+
+.vcircle18{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+    left: 10px;
+}
+.vcircle19{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+    right: 10px;
+}
+
+/*
+endddddddddddddddddddddddd
+*/
+/***************************************MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*****************************************/
+
+.wscale{
+    transform:scale(1.5);
+}
+
+.w{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top:50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -160 350');
+    animation: wdrop 0.8s linear 2.7s forwards, wrotate 1s linear 3s forwards, wmove 0.5s linear 3.5s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes wdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes wrotate {
+  from{transform: rotate(0deg);}
+  to{transform: rotate(-270deg);}
+}
+
+@keyframes wmove {
+  to {
+      left: 660px; top: 55px;
+    }
+}
+
+/*begin first row*/
+.wcircle1{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 2px;
+    top: 1px;
+}
+
+.wcircle2{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 6px;
+}
+
+.wcircle3{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    right: 6px;
+}
+
+.wcircle4{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 2px;
+    top: 1px;
+}
+
+/*end first row*/
+/*****************************/
+/*begin first colum*/
+
+.wcircle5{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 5px;
+}
+
+.wcircle6{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+}
+
+.wcircle7{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    left: 2px;
+}
+
+
+.wcircle8{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    left: 1px;
+}
+
+
+.wcircle10{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 0px;
+}
+
+.wcircle11{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/*end firt colum*/
+/*****************************/
+/*begin mid colum*/
+
+.wcircle12{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    left: 20px;
+}
+
+.wcircle13{
+    height: 14px;
+    width: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 16px;
+    left: 20px;
+}
+
+
+
+/*end mid colum*/
+
+/*begin last colum*/
+.wcircle14{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 5px;
+    right: 0px;
+}
+
+.wcircle15{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    right: 0px;
+}
+
+.wcircle16{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 15px;
+    right: 2px;
+}
+
+
+.wcircle17{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 23px;
+    right: 1px;
+}
+
+
+.wcircle18{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+.wcircle19{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*end last colum*/
+
+/*
+endddddddddddddddddddddddd
+*/
+/***************************************XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*****************************************/
+
+
+.xscale{
+    transform:scale(1.5);
+}
+
+.x{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top: 50px;
+    left: 750px;
+    offset-path: path('M 350 150 q 0 -30 -50 400');
+    animation: xdrop 0.8s linear 3s forwards, xrotate 1s linear 3s forwards, xmove 0.2s linear 3.8s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes xdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes xrotate {
+  from{transform: rotate(180deg);}
+  to{transform: rotate(-360deg);}
+}
+
+@keyframes xmove {
+  to {
+      left: 690px; top: 50px;
+    }
+}
+
+/*begin first row*/
+
+.xcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.xcircle2 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 7px;
+}
+
+
+.xcircle3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0px;
+}
+
+.xcircle4 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 7px;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+.xcircle5 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    left: 13px;
+}
+
+.xcircle6 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 12px;
+    right: 13px;
+}
+
+.xcircle7 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    left: 28px;
+}
+
+.xcircle8 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right: 8px;
+}
+
+.xcircle10 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    right: 1px;
+}
+
+.xcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 1px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+.xcircle12 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 22px;
+    left: 15px;
+}
+
+.xcircle13{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 10px;
+    left: 20px;
+}
+
+.xcircle14 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 4px;
+    left: 25px;
+}
+
+.xcircle15 {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 8px;
+    left: 25px;
+}
+
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.xcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.xcircle18 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;
+    left: 7px;
+}
+
+.xcircle19 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0px;
+    bottom: 0px;
+}
+
+.xcircle20 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 7px;
+    bottom: 0ox;
+}
+
+.xcircle21 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 3px;
+    left: 1px;
+}
+
+.xcircle22 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 7px;
+    bottom: 0px;
+}
+
+/*
+endddddddddddddddddddddddd
+*/
+
+/***************************************YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY*****************************************/
+
+
+.yscale{
+    transform:scale(1.5);
+}
+
+.y{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top:50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -160 300');
+    animation: ydrop 0.8s linear 3.3s forwards, yrotate 1s linear 3.3s forwards, ymove 0.5s linear 4s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes ydrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes yrotate {
+  from{transform: rotate(280deg);}
+  to{transform: rotate(-90deg);}
+}
+
+@keyframes ymove {
+  to {
+      left: 691px; top: 66px;
+    }
+}
+/*begin first row*/
+
+.ycircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.ycircle2 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 7px;
+}
+
+
+.ycircle3 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 0px;
+}
+
+.ycircle4 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    right: 7px;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+.ycircle5 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 14px;
+    left: 13px;
+}
+
+.ycircle6 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 14px;
+    right: 13px;
+}
+
+.ycircle7 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    left: 28px;
+}
+
+.ycircle8 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    right: 8px;
+}
+
+.ycircle10 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    right: 1px;
+}
+
+.ycircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 1px;
+}
+
+.ycircle12 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    right: 28px;
+}
+
+.ycircle13 {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    left: 8px;
+}
+
+.ycircle14 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 1px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+.ycircle15 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    left: 17px;
+}
+
+.ycircle16{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 26px;
+    left: 19px;
+}
+
+.ycircle17 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+    left: 16px;
+}
+
+.ycircle18{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+    left: 20px;
+}
+
+.ycircle19 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;;
+    left: 15px;
+}
+
+.ycircle20{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 0px;;
+    left: 21px;
+}
+
+/*
+endddddddddddddddddddddddd
+
+/***************************************ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ*****************************************/
+
+.zscale{
+    transform:scale(1.5);
+}
+
+.z{
+
+    display: block; 
+    height: 50px;
+    width: 50px;
+    position: absolute; 
+    top:50px;
+    left: 750px;
+    offset-path: path('M 350 150 q -150 40 -130 350');
+    animation: zdrop 0.8s linear 4s forwards, zrotate 1s linear 4s forwards, zmove 0.5s linear 4.5s forwards;
+    animation-play-state: paused;
+
+}
+
+
+
+@keyframes zdrop {
+to {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }  
+}
+
+@keyframes zrotate {
+  from{transform: rotate(280deg);}
+  to{transform: rotate(-80deg);}
+}
+
+@keyframes zmove {
+  to {
+      left: 730px; top: 55px;
+    }
+}
+
+/*begin first row*/
+
+.zcircle1 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.zcircle2 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    left: 16px;
+}
+
+.zcircle3 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: beige;
+    left: 24px;
+}
+
+.zcircle4 {
+    height: 16px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 1px;
+    right:1px;
+}
+
+.zcircle15{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 7px;
+    right:1px;
+}
+
+/*end first row*/
+/***************************************************/
+/*begin second row*/
+
+
+
+.zcircle5 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 6px;
+    left: 26px;
+}
+
+
+.zcircle6 {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 3px;
+    left: 13px;
+}
+
+
+
+.zcircle9 {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 8px;
+    right: 13px;
+}
+
+.zcircle10 {
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 18px;
+    left: 24px;
+}
+
+.zcircle13{
+    height: 10px;
+    width: 13px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 25px;
+    left: 10px;
+}
+
+.zcircle14 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 22px;
+}
+
+/*end second row*/
+/*****************************/
+/*begin third row*/
+
+
+.zcircle11 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 20px;
+    left: 13px;
+}
+
+.zcircle12 {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 31px;
+    left: 15px;
+}
+
+
+.zcircle16{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 4px;
+    right: 10px;
+}
+/*end third row*/
+/*****************************/
+/*begin last row*/
+
+.zcircle17 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 30px;
+}
+
+.zcircle18 {
+    height: 14px;
+    width: 17px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    top: 36px;
+    left: 16px;
+}
+
+.zcircle19 {
+    height: 13px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom:0;
+    right: 6px;
+}
+
+.zcircle20 {
+    height: 16px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 1px;
+    right:1px;
+}
+
+.zcircle21{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: beige;
+    bottom: 7px;
+    right:1px;
+}
+
+
+/*****endddddddddddddddddddddddd********/
