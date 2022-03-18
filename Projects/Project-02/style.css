@@ -1,25 +1,16 @@
-@media screen and (min-width: 2500px) {
+@media all {
 body{
     background-color: black;   
     position:absolute;
-    transform: scale(2);
     
 }
 }
-@media screen and (max-width: 2000px) {
-    body{
-        background-color: black;   
-        position:absolute;
-        transform: scale(1);
-        
-    }
-    }
-
 
 .enterimg{
     display: block;
     margin: auto;
-    height: 40%;
+    width: 50%;
+    transform: scale(2);
     animation: shake 0.5s;
     animation-iteration-count: infinite;
   }
