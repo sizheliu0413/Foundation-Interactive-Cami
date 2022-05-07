@@ -1,0 +1,91 @@
+@import url();
+
+body{
+    background-color: lightgreen;
+}
+
+p {
+    text-align: center;
+    font-size: 50pt;
+}
+/* Text
+-------------------------------------------------- */
+
+img{
+    
+    width:50%;
+    align-content: center;
+    margin:auto;
+    display: flex;
+    
+}
+
+/* Image
+-------------------------------------------------- */
+
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-width : 480px) and (max-width : 1024px) {
+
+ p{
+      font-size: 24pt;
+    }
+
+    body{
+    
+    background-color: pink;
+    }
+
+    
+    img{
+        align-items: center;
+    }
+
+
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 480x) {
+    p{
+      font-size: 12pt;
+    }
+
+    body{
+    
+    background-color: lightgreen;
+    }
+
+    
+    img{
+        width: 400px;
+    }
+
+  /* image */
+
+}
+
+
+/* Orientation
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+    body{
+  background-color: pink;
+    }
+    
+
+    p{
+      font-size: 14pt;
+    }
+
+
+}
+
+
