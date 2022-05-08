@@ -1,0 +1,78 @@
+
+
+:root{
+	--second:  1s;
+	--minute: calc(var(--second)*60);
+	--hour: calc(var(--minute)*60);
+	--halfday:  calc(var(--hour)*12);
+	--setTimeHour:  2;
+	--setTimeMinute: 15;
+	--timeShiftHour:  calc(var(--setTimeHour)*var(--hour));
+	--timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
+}
+
+@keyframes rotate{
+	from{transform: rotate(0);}
+	to{transform: rotate(1turn);}
+}
+
+p{
+    margin: auto;
+    display: block;
+    width: 35%;
+}
+
+.seconds{
+	--width: 5px;
+	--height: 150px;
+	--background-color: lightgreen;
+	animation: rotate steps(60) var(--minute) infinite;
+}
+
+.minute{
+	--width: 15px;
+	--height: 150px;
+	border-style: dotted;
+    border-color: pink;
+	animation: rotate steps(60) var(--hour) infinite;
+	animation-delay: calc(var(--timeShiftMinute)*-1);
+}
+
+
+
+.hour{
+	--width: 20px;
+	--height: 60px;
+    border-style:dotted;
+    border-color: orange;
+    border-radius: 100%;
+	animation:  rotate steps(12) var(--halfday) infinite;
+	animation-delay: calc((var(--timeShiftHour) + var(--timeShiftMinute)) * -1);
+}
+
+.hand{
+	position: absolute;
+	left: calc(50% - var(--width)/2);
+	width: var(--width);
+	height: var(--height);
+	background-color: var(--background-color);
+	top: 50%;
+	transform-origin: center 0;
+	border-radius: calc(var(--width)/2);
+}
+
+.clockface{
+    margin: auto;
+	width: 50%;
+    display: block;
+	height: 300px;
+	border-radius: 100%;
+	position: relative;
+	animation: background-color ease var(--minute) infinite;
+	transform: rotate(180deg);
+}
+
+@keyframes background-color{
+	from{background-color: black;}
+	to{background-color:  white}
+}
