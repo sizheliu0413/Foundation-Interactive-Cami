@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" href="drag-drop.css">
+<!-- 
+     	<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css"> -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+
+  			
+  		<script>
+    		$(function(){
+
+          $('#draggable').draggable();
+          $('#draggable2').draggable();
+          $('#draggable3').draggable();
+          $('#draggable4').draggable();
+          $('#draggable5').draggable();
+
+          $('#droppable').droppable({
+            drop: function(event, ui){
+              $(this)
+              .addClass("sorbet1")
+              .find("p")
+              .html("Dropped!");
+            }
+          });
+
+    			/*ACCEPT */
+    	      $('#draggable-box').draggable();
+	          $('#droppable').droppable({
+	            accept: '.cat',
+	            drop: function(event, ui){
+	              $(this)
+	              .addClass("box")
+	              .find("p")
+	              .html("Complete!");
+	            }
+	          });
+
+    	   });		
+
+
+		</script>
+
+	</head>
+
+
+	<body>
+
+    <!--DRAGGABLE -->
+  <div id= "draggable" class="cat">
+        <img src="img/1.png" width="150">
+        </div>
+        
+  <div id= "draggable2" class="cat">
+        <img src="img/2.png" width="150">
+        </div>
+        
+  <div id= "draggable3" class="cat">
+        <img src="img/3.png" width="150">
+        </div>
+        
+  <div id= "draggable4" class="cat">
+        <img src="img/4.png" width="150">
+        </div>
+        
+  <div id= "draggable5" class="cat">
+        <img src="img/5.png" width="200">
+        </div>
+
+	<!--ACCEPT -->
+
+    <div id= "droppable">
+      <img src="img/cattree.png" width="500">
+    </div> 
+
+
+
+	</body>
+</html>

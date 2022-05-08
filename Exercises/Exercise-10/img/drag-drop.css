@@ -1,0 +1,13 @@
+
+.cat{
+    align-content: center;
+    width: 200px;
+}
+
+#droppable{
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+
